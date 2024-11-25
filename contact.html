@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <img
+        src="https://images.unsplash.com/photo-1655720855348-a5eeeddd1bc4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80"
+        alt="AI Neural Network"
+      />
+      <h1>CONTACT | AI Neural Networks</h1>
+    </header>
+    <form>
+      <fieldset>
+        <legend>Message</legend>
+        <div>
+          <label for="email">Your email</label>
+          <input
+            id="email"
+            type="email"
+            placeholder="name@domain.com"
+            required
+          />
+        </div>
+        <div>
+          <label for="subject">Your subject of interest</label>
+          <select id="subject">
+            <option>3D rendering</option>
+            <option selected>AI APIs Integration</option>
+            <option>Neural Networks</option>
+          </select>
+        </div>
+        <div>
+          <label for="message">Your message</label>
+          <textarea
+            id="message"
+            placeholder="Write your message here..."
+            rows="15"
+            cols="30"
+            required
+          ></textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Subscribe to Newsletter</legend>
+        <input
+          id="subscribe_yes"
+          type="radio"
+          name="subscribe"
+          value="1"
+          required
+        />
+        <label for="subscribe_yes">Yes</label>
+        <input id="subscribe_no" type="radio" name="subscribe" value="0" />
+        <label for="subscribe_no">No</label>
+      </fieldset>
+      <fieldset>
+        <legend>Privacy Policy</legend>
+        <input
+          id="privacy_policy"
+          type="checkbox"
+          name="privacy_policy"
+          required="true"
+        />
+        <label for="privacy_policy"
+          >I have read and agree to the Privacy Policy</label
+        >
+      </fieldset>
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
