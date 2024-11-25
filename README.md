@@ -1,2 +1,2 @@
 # web-pages-style
-Web pages in HTML and external CSS
+Web pages developed in HTML (Hyper Text Markup Language) and external CSS (Cascading Style Sheets) file.
